@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #454546;
+}
+.imgHeader {
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+h1{
+    color: #6CB3B8;
+    font-size: 45px;
+}
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+a{
+    color: #6CB3B8;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.titulo{
+    text-align: center;
+    color: #6CB3B8;
+    margin-top: 50px;
+}
+.container{
+   padding: 2rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.magen{
+    width: 580px;
+    padding: 20px;
+    margin-right: 100px;
+    color: white;
+    border: 2px solid #7ecfd4;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+  
+}
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #454546;
+}
+
+.itemLista{
+    padding: 1rem;
+    color: white;
+}
+.titleLista {
+    color: #6CB3B8;
+    margin: 1rem;
+}
+.contLista {
+    overflow-y: scroll;
+    height: 24rem;
+}
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.socialMediaContent {
+    display: flex;
+}
+footer > .container {
+    background-color: #6CB3B8;
+}
+footer > .container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer > .container > div > h4 {
+    margin-bottom: 2vh;
+}
+footer > .container > div > img {
+    width: 18rem;
+}
+.socialMediaContent > img {
+    width: 5rem;
+}
+.gridList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    width: 30rem;
+    border: 2px solid #6CB3B8;
+    border-radius: 10px;
+    background-color: #313134;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card > img {
+    width: 30rem;
+    border-radius: 10px;
+}
+.titleCard {
+    color: #7ecfd4;
+}
+.btn {
+    margin-top: 1rem;
+    border: none;
+    padding: 1rem;
+    background-color: #1184e8;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    }
+.btn:hover {
+    background-color: #1265EB;
+}
+.bigBox {
+    padding: 2rem;
+}
+.bigBox > h1 {
+    margin-bottom: 2rem;
+}
