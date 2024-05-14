@@ -124,7 +124,7 @@ footer > .container > div > img {
     border-radius: 10px;
     color: white;
     font-size: 16px;
-    }
+}
 .btn:hover {
     background-color: #61A0A5;
 }
@@ -142,14 +142,12 @@ footer > .container > div > img {
     position: absolute;
     color: white;
     width: 100%;
-    
 }
-
 .coverIMG > div > div {
     display: flex;
     justify-content: center;
 }
-.coverIMG > div > div > img {
+.coverIMG > div > div:nth-child(3) > img {
     width: 100px;
     height: 100px;
     margin: 2vh;
@@ -157,7 +155,7 @@ footer > .container > div > img {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   position: relative;
-  top: 25rem;
+
 }
 @keyframes movimiento-y {
     0% {
@@ -170,7 +168,6 @@ footer > .container > div > img {
       transform: translateY(0);
     }
   }
-
 .coverIMG > div > div:nth-child(1) > h1 {
     background-color: white;
     padding: 1vh;
@@ -185,11 +182,28 @@ footer > .container > div > img {
 
 }
 .coverIMG > div > div:nth-child(1){
-    
     position: relative;
     top: 2vh;
     display: flex;
     flex-direction: column;
-    width: fit-content;
-    gap: 30vh;
+    width: 100%;
+    align-items: center;
+    gap: 10vh;
+}
+.coverIMG > div > div:nth-child(2) {
+    display: flex;
+    margin: 10rem;
+    gap: 2rem;
+}
+.coverIMG > div > div:nth-child(2) > img {
+    width: 300px;
+    background-color: white;
+    padding: 2vh;
+    border-radius: 10px;
+    transition: ease-in-out width 0.5s;
+    cursor: pointer;
+}
+.coverIMG > div > div:nth-child(2) > img:hover {
+    background-color: #6CB3B8;
+    width: 320px;
 }
