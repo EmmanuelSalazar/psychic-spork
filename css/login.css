@@ -28,13 +28,14 @@ form > input[type=password],  input[type=text],  input[type=email] {
 .btn {
     border: none;
     padding: 1rem;
-    background-color: #1184e8;
+    background-color: #6CB3B8;
     border-radius: 10px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
     }
 .btn:hover {
-    background-color: #1265EB;
+    background-color: #61A0A5;
 }
 h1 {
    margin: 1rem;
@@ -45,5 +46,5 @@ span {
 }
 span > a {
     text-decoration: none;
-    color: #1265EB;
+    color: #6CB3B8;
 }

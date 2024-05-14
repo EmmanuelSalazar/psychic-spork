@@ -8,6 +8,7 @@ body {
 }
 .imgHeader {
     width: 100%;
+    z-index: 1;
 }
 nav{
     display: flex;
@@ -119,17 +120,76 @@ footer > .container > div > img {
     margin-top: 1rem;
     border: none;
     padding: 1rem;
-    background-color: #1184e8;
+    background-color: #6CB3B8;
     border-radius: 10px;
     color: white;
     font-size: 16px;
     }
 .btn:hover {
-    background-color: #1265EB;
+    background-color: #61A0A5;
 }
 .bigBox {
     padding: 2rem;
 }
 .bigBox > h1 {
     margin-bottom: 2rem;
+}
+.coverIMG {
+    width: 100%;
+     height: max-content;
+}
+.coverIMG > div{
+    position: absolute;
+    color: white;
+    width: 100%;
+    
+}
+
+.coverIMG > div > div {
+    display: flex;
+    justify-content: center;
+}
+.coverIMG > div > div > img {
+    width: 100px;
+    height: 100px;
+    margin: 2vh;
+    animation-name: movimiento-y;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 25rem;
+}
+@keyframes movimiento-y {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.coverIMG > div > div:nth-child(1) > h1 {
+    background-color: white;
+    padding: 1vh;
+    border-radius: 10px;
+}
+.coverIMG > div > div:nth-child(1) > h2 {
+    background-color: white;
+    padding: 1vh;
+    border-radius: 10px;
+    color: #6CB3B8;
+    width: fit-content;
+
+}
+.coverIMG > div > div:nth-child(1){
+    
+    position: relative;
+    top: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 30vh;
 }
