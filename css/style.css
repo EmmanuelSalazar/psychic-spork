@@ -79,18 +79,24 @@ a:hover{
 .socialMediaContent {
     display: flex;
 }
-footer > .container {
+footer > .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: #6CB3B8;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 3rem;
 }
-footer > .container > div {
+footer > .footer > div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-footer > .container > div > h4 {
+footer > .footer > div > h4 {
     margin-bottom: 2vh;
 }
-footer > .container > div > img {
+footer > .footer > div > img {
     width: 18rem;
 }
 .socialMediaContent > img {
@@ -142,6 +148,7 @@ footer > .container > div > img {
     position: absolute;
     color: white;
     width: 100%;
+    height: 100%;
 }
 .coverIMG > div > div {
     display: flex;
@@ -196,14 +203,17 @@ footer > .container > div > img {
     gap: 2rem;
 }
 .coverIMG > div > div:nth-child(2) > img {
-    width: 300px;
+    width: 230px;
     background-color: white;
     padding: 2vh;
     border-radius: 10px;
-    transition: ease-in-out width 0.5s;
+    transition: ease-in-out width 0.38s;
     cursor: pointer;
 }
 .coverIMG > div > div:nth-child(2) > img:hover {
     background-color: #6CB3B8;
-    width: 320px;
+    width: 250px;
+}
+.img {
+    border-radius: 10px;
 }
