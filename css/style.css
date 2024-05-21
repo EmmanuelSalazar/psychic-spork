@@ -92,6 +92,7 @@ footer > .footer > div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 footer > .footer > div > h4 {
     margin-bottom: 2vh;
@@ -202,7 +203,7 @@ footer > .footer > div > img {
     margin: 10rem;
     gap: 2rem;
 }
-.coverIMG > div > div:nth-child(2) > img {
+.coverIMG > div > div:nth-child(2) > a > img {
     width: 230px;
     background-color: white;
     padding: 2vh;
@@ -210,7 +211,8 @@ footer > .footer > div > img {
     transition: ease-in-out width 0.38s;
     cursor: pointer;
 }
-.coverIMG > div > div:nth-child(2) > img:hover {
+
+.coverIMG > div > div:nth-child(2) > a > img:hover {
     background-color: #6CB3B8;
     width: 250px;
 }
