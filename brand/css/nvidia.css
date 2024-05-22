@@ -1,0 +1,26 @@
+.container > div > div:nth-child(3) {
+    padding-right: 2vh;
+    padding-top: 2vh;
+}
+.container > .row > .col:nth-child(1) > div {
+    width: 38rem;
+}
+.container > .row > .col:nth-child(1) > div:nth-child(2) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container > .row:nth-child(3) > .col:nth-child(1) > div > img {
+    width: 60rem;
+}
+.container > .row:nth-child(2) > .col:nth-child(1) > div {
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+}
+.container > .row:nth-child(2) > div > img{
+    width: 590px;
+}
+.imgE {
+    width: 36.25rem;
+    margin-top: 2rem;
+}
