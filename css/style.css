@@ -177,12 +177,14 @@ footer > .footer > div > img {
     }
   }
 .coverIMG > div > div:nth-child(1) > h1 {
-    background-color: white;
+    backdrop-filter: blur(4px) invert(40%);
+    border: 1px solid white;
     padding: 1vh;
     border-radius: 10px;
 }
 .coverIMG > div > div:nth-child(1) > h2 {
-    background-color: white;
+    backdrop-filter:  url(filters.svg#filter) blur(4px) invert(40%);
+    border: 1px solid white;
     padding: 1vh;
     border-radius: 10px;
     color: #6CB3B8;
@@ -205,7 +207,8 @@ footer > .footer > div > img {
 }
 .coverIMG > div > div:nth-child(2) > a > img {
     width: 230px;
-    background-color: white;
+    backdrop-filter:  blur(4px) invert(20%);
+    border: 2px solid white;
     padding: 2vh;
     border-radius: 10px;
     transition: ease-in-out width 0.38s;
