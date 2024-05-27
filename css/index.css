@@ -1,0 +1,18 @@
+.container > .row:nth-child(2) > .col {
+    width: 36.25rem;
+}
+.container > .row:nth-child(1) > .col {
+    width: 36.25rem;
+}
+.container > .row:nth-child(3) > .col {
+    width: 80.5rem;
+}
+.container > .row:nth-child(3) > .col > .magen > div {
+    margin-bottom: 2rem;
+}
+.magen > .row > .col {
+    width: 50%;
+}
+
+
+
