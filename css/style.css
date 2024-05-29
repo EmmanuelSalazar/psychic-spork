@@ -103,6 +103,7 @@ footer > .footer {
     padding-bottom: 3rem;
 }
 footer > .footer > div {
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
