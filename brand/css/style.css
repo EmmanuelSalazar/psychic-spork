@@ -29,3 +29,31 @@ h2, ul > li > strong {
        margin-right: 0;
     }
  }
+ @media screen and (max-width: 720px) {
+    .container {
+        display: flex;
+        max-width: 720px;
+        padding: 0.3rem;
+        
+    }
+    .col > div {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer > .footer {
+        max-width: 720px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .img {
+        width: 100%;
+    }
+ }
