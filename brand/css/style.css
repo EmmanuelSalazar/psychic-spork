@@ -23,8 +23,9 @@ h2, ul > li > strong {
     color: white;
     gap: 2rem;
 }
-@media screen and (width:1368px){
+@media screen and (max-width: 1500px) {
     .container {
-        margin: none
+       margin-left: 0;
+       margin-right: 0;
     }
-}
+ }
