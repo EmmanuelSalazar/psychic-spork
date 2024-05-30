@@ -239,21 +239,15 @@ footer > .footer > div > img {
 }
 @media screen and (max-width: 720px) {
     .container {
-        display: flex;
         max-width: 720px;
-        padding: 0.3rem;
-        text-align: center;
-        
-    }
-    .col > div {
-        display: flex;
-        justify-content: center;
-        
+        padding: 0.2rem;
     }
     .row {
-        display: flex;
         flex-direction: column;
-
+       
+    }
+    .magen {
+        max-width: 720px;
     }
     footer > .footer {
         max-width: 720px;
@@ -262,10 +256,4 @@ footer > .footer > div > img {
         padding-left: 0;
         padding-right: 0;
     }
-    .img {
-        width: 100%;
-    }
-    .coverIMG {
-        height: 800px;
-    }
- }
+}
