@@ -237,3 +237,35 @@ footer > .footer > div > img {
 .img {
     border-radius: 10px;
 }
+@media screen and (max-width: 720px) {
+    .container {
+        display: flex;
+        max-width: 720px;
+        padding: 0.3rem;
+        text-align: center;
+        
+    }
+    .col > div {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer > .footer {
+        max-width: 720px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .img {
+        width: 100%;
+    }
+    .coverIMG {
+        height: 800px;
+    }
+ }
