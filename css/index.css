@@ -1,4 +1,7 @@
-
+header {
+    position: sticky;
+    top: 0;
+}
 .container > .row:nth-child(2) > .col {
     width: 36.25rem;
 }
@@ -33,7 +36,11 @@ nav > h1 {
 
 
 /* CSS MOBILE */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) { 
+    .row {
+        margin-bottom: 3rem;
+        gap: 1.5rem;
+    }
     .imgHeader {
         display: none;
     }
@@ -50,13 +57,39 @@ nav > h1 {
         margin: 4rem;
         justify-items: center;
     }
+    
     .container > .row:nth-child(1) > .col {
         width: 100%;
     }
     .container {
-        padding: 5rem;
+        padding: 1.5rem;
         }
+    .container > .row:nth-child(2)> .col > .img{
+        max-width:330px;
+    }
+    .container > .row:nth-child(2) > .col,  .container > .row:nth-child(3) > .col{ 
+        width: 100%;
+    }
+    header {
+        position: fixed;
+        top: 0;
+    }
+    .coverIMG {
+        padding-top: 4rem;
+
+    }
+    .container > .row:nth-child(2) > .col, .container > .row:nth-child(3) > .col > .magen > .row > .col{
+        width: 100%;
+
+    }
+    footer > .footer {
+       text-align: center;
+    }
+    footer > .footer > div {
+        text-align: center;
+    }
 }
+
 
 
 
