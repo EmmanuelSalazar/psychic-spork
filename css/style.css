@@ -51,8 +51,6 @@ a:hover{
     margin-top: 50px;
 }
 .container{
-   padding: 2rem;
-   display: flex;
    flex-direction: column;
    align-items: center;
 }
@@ -65,6 +63,11 @@ a:hover{
     flex-direction: column;
     gap: 0.8rem;
   
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .header {
     position: sticky;
@@ -165,6 +168,9 @@ footer > .footer > div > img {
     color: white;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coverIMG > div > div {
     display: flex;
@@ -174,6 +180,7 @@ footer > .footer > div > img {
     width: 100px;
     height: 100px;
     margin: 2vh;
+    z-index: 2;
     animation-name: movimiento-y;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -214,11 +221,16 @@ footer > .footer > div > img {
     width: 100%;
     align-items: center;
     gap: 10vh;
+    z-index: 2;
+
 }
 .coverIMG > div > div:nth-child(2) {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: 10rem;
+    width: 60rem;
     gap: 2rem;
+
 }
 .coverIMG > div > div:nth-child(2) > a > img {
     width: 230px;
@@ -228,6 +240,7 @@ footer > .footer > div > img {
     border-radius: 10px;
     transition: ease-in-out width 0.38s;
     cursor: pointer;
+    z-index: 2;
 }
 
 .coverIMG > div > div:nth-child(2) > a > img:hover {
@@ -256,4 +269,7 @@ footer > .footer > div > img {
         padding-left: 0;
         padding-right: 0;
     }
+    
+   
+
 }

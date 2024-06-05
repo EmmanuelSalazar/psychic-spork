@@ -1,3 +1,4 @@
+
 .container > .row:nth-child(2) > .col {
     width: 36.25rem;
 }
@@ -26,6 +27,35 @@
 }
 nav > h1 {
     margin-bottom: 0.5rem;
+}
+
+
+
+
+/* CSS MOBILE */
+@media screen and (max-width: 720px) {
+    .imgHeader {
+        display: none;
+    }
+    .coverIMG > div{ 
+        position: inherit;
+    }
+    .coverIMG > div > div:nth-child(1) {
+        gap: 1rem;
+    }
+    .coverIMG > div > div:nth-child(2) {
+        max-width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 4rem;
+        justify-items: center;
+    }
+    .container > .row:nth-child(1) > .col {
+        width: 100%;
+    }
+    .container {
+        padding: 5rem;
+        }
 }
 
 
