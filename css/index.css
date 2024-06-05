@@ -17,23 +17,6 @@ header {
 .magen > .row > .col {
     width: 50%;
 }
-@media screen and (max-width: 1500px){
-    .coverIMG > div > div:nth-child(2) > a > img {
-        width: 130px;
-    }   
-    .coverIMG > div > div:nth-child(2) > a > img:hover {
-        width: 150px;
-    }   
-    .coverIMG > div > div:nth-child(2) { 
-        margin: 8rem;
-    }
-}
-nav > h1 {
-    margin-bottom: 0.5rem;
-}
-
-
-
 
 /* CSS MOBILE */
 @media screen and (max-width: 720px) { 
@@ -57,7 +40,6 @@ nav > h1 {
         margin: 4rem;
         justify-items: center;
     }
-    
     .container > .row:nth-child(1) > .col {
         width: 100%;
     }
@@ -76,11 +58,9 @@ nav > h1 {
     }
     .coverIMG {
         padding-top: 4rem;
-
     }
     .container > .row:nth-child(2) > .col, .container > .row:nth-child(3) > .col > .magen > .row > .col{
         width: 100%;
-
     }
     footer > .footer {
        text-align: center;
@@ -90,6 +70,22 @@ nav > h1 {
     }
 }
 
+/* ADDITIONAL CSS */
+
+@media screen and (max-width: 1500px){
+    .coverIMG > div > div:nth-child(2) > a > img {
+        width: 130px;
+    }   
+    .coverIMG > div > div:nth-child(2) > a > img:hover {
+        width: 150px;
+    }   
+    .coverIMG > div > div:nth-child(2) { 
+        margin: 8rem;
+    }
+}
+nav > h1 {
+    margin-bottom: 0.5rem;
+}
 
 
 
