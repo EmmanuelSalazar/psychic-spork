@@ -1,0 +1,39 @@
+.bigBox {
+    padding: 2rem;
+}
+.bigBox > h1 {
+    margin-bottom: 2rem;
+}
+.gridList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.card > img {
+    width: 30rem;
+    border-radius: 10px;
+}
+@media screen and (max-width: 720px){
+    .gridList {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.5rem;
+        display: grid;
+    }
+    .card { 
+        width: 20rem;
+        margin-bottom: 0.5rem;
+    }
+    .card > img {
+        width: 15rem;
+    }
+    .bigBox > h1 {
+        margin-bottom: 0.5rem;
+    }
+    .bigBox {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+}
