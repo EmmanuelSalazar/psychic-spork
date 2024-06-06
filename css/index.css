@@ -80,7 +80,7 @@ header {
         width: 150px;
     }   
     .coverIMG > div > div:nth-child(2) { 
-        margin: 8rem;
+        margin: 2rem;
     }
 }
 nav > h1 {
