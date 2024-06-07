@@ -1,6 +1,6 @@
 * {
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
 }
 h2, ul > li > strong {
     color: #6CB3B8;
@@ -56,6 +56,11 @@ h2, ul > li > strong {
     }
     .img {
         width: 100%;
+    }
+ }
+ @media screen and (max-width: 720px) {
+    .container {
+        margin-top: 0.8rem;
     }
  }
  

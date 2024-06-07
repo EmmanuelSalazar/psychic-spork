@@ -48,6 +48,8 @@ ul li{
     font-size: 16px;
     padding: 0.4rem;
     list-style: none;
+}
+.header > nav > ul > li {
     border: 1px solid #6CB3B8;
     border-radius: 2px;
 }
@@ -56,7 +58,7 @@ a{
     text-decoration: none;
 }
 
-li:hover{
+.header > nav > ul > li:hover{
     background-color: #5B5B5B;
 }
 .titulo{
@@ -273,7 +275,7 @@ footer > .footer > div > img {
         padding-left: 0;
         padding-right: 0;
     }
-    ul li{
+    .header > nav > ul > li {
         font-size: 12px;
     }
     footer > .footer {
