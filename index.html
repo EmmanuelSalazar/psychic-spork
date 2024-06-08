@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    
 </head>
 <body>
     <div class="coverIMG">
@@ -32,14 +33,22 @@
             <nav>
                 <h1>logo</h1>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="comprar.html">Comprar</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="login.html">Iniciar sesión </a></li>
+                    <li class="navItem"><a href="index.html">Inicio</a></li>
+                    <li class="navItem"><a href="comprar.html">Comprar</a></li>
+                    <li class="navItem"><a href="#">Contacto</a></li>
+                    <li class="navItem"><a href="login.html">Iniciar sesión </a></li>
+                    <li class="dropdown" id="dropdown"><a href="#" ><i class="material-icons">menu</i></a></li>
                 </ul>
             </nav>
         </div>
-    </header>  
+                <div class="dropDownMenu" id="dropDownMenu">
+                    <li class="navItemDropDown"><a href="index.html">Inicio</a></li>
+                    <li class="navItemDropDown"><a href="comprar.html">Comprar</a></li>
+                    <li class="navItemDropDown"><a href="#">Contacto</a></li>
+                    <li class="navItemDropDown"><a href="login.html">Iniciar sesión </a></li>
+   
+                </div>
+        </header>  
 
         <h2 class="titulo">
             El mundo de las tarjetas graficas 
@@ -167,5 +176,7 @@
             </div>
         </footer>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/dropdown.js"></script>
 </body>
 </html>
