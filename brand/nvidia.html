@@ -4,23 +4,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="css/nvidia.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="header">
-            <nav>
-                <h1>logo</h1>
-                <ul>
-                    <li><a href="../">Inicio</a></li>
-                    <li><a href="../comprar.html">Comprar</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="../login.html">Iniciar sesión </a></li>
-                </ul>
-            </nav>
-        </div>
+        <header>
+            <div class="header">
+                <nav>
+                    <h1>logo</h1>
+                    <ul>
+                        <li class="navItem"><a href="../index.html">Inicio</a></li>
+                        <li class="navItem"><a href="../comprar.html">Comprar</a></li>
+                        <li class="navItem"><a href="../contacto.html">Contacto</a></li>
+                        <li class="navItem"><a href="../login.html">Iniciar sesión </a></li>
+                        <li class="dropdown" id="dropdown"><a href="#" ><i class="material-icons">menu</i></a></li>
+                    </ul>
+                </nav>
+            </div>
+                    <div class="dropDownMenu" id="dropDownMenu">
+                        <li class="navItemDropDown"><a href="../index.html">Inicio</a></li>
+                        <li class="navItemDropDown"><a href="../comprar.html">Comprar</a></li>
+                        <li class="navItemDropDown"><a href="../contacto.html">Contacto</a></li>
+                        <li class="navItemDropDown"><a href="../login.html">Iniciar sesión </a></li>
+                    </div>
         </header>
+        
         <div class="container">
             <div class="row">
                 <div>
@@ -33,34 +44,31 @@
                         <img src="img/nvidia.jpg" alt="" class="img">
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nemo consequatur eaque fugiat molestiae, sequi deserunt doloribus eveniet voluptatum at veniam illo nulla perspiciatis error illum praesentium dignissimos autem pariatur.</p>
                         <p>Nvidia está desempeñando un papel crucial en el desarrollo de vehículos autónomos,
                             proporcionando plataformas de hardware y software que permiten a los vehículos percibir su entorno,
                             tomar decisiones y navegar de manera segura.</p>
                     </div> 
                     <div>
-                        <p>Nvidia también está involucrada en el desarrollo del metaverso y la realidad virtual, creando tecnologías que permiten a las personas interactuar y experimentar mundos virtuales de manera más realista y envolvente.</p>
-                        <p>Nvidia también está involucrada en el desarrollo del metaverso y la realidad virtual, creando tecnologías que permiten
-                            a las personas interactuar y experimentar mundos virtuales de manera más realista y envolvente.</p>
+                        <p>Nvidia también está involucrada en el desarrollo del metaverso y la realidad virtual,
+                            creando tecnologías que permiten a las personas interactuar y experimentar mundos virtuales de manera
+                             más realista y envolvente.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti maxime, et, distinctio atque, nesciunt veniam sed optio quos quaerat fuga dolor blanditiis minus quia temporibus pariatur animi consequatur sit?</p>
                         <p><b>Nvidia,</b> el gigante de la tecnología estadounidense, ha tenido un impacto profundo
                             y transformador en el mundo actual, especialmente en los sectores de la computación, la inteligencia artificial y los 
                             gráficos. Su enfoque en la innovación y el desarrollo de tecnologías de vanguardia ha impulsado el avance de diversas
                             industrias y ha dado forma al panorama tecnológico tal como lo conocemos hoy en día.</p>
                     </div>
                     <div>
-                        <p> Nvidia también ha sido un pionero en el 
+                        <p>Nvidia también ha sido un pionero en el 
                             campo de la inteligencia artificial (IA), proporcionando la potencia de computación necesaria para el 
                             entrenamiento y la ejecución de modelos de IA complejos. Sus GPUs, junto con su software CUDA, han habilitado 
                             aplicaciones de IA en áreas como el reconocimiento de imágenes, el procesamiento del lenguaje natural y el 
                             aprendizaje automático.</p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam expedita quis quas quod quos fugiat velit tempora itaque rem. Tempora corporis soluta magni, recusandae dolorem culpa quis dignissimos placeat libero?</p>
                         <p>Las GPUs de Nvidia han abierto nuevas 
                             posibilidades en el campo de la ciencia y la investigación, permitiendo a científicos e investigadores
                             realizar simulaciones complejas, analizar grandes conjuntos de datos y resolver problemas desafiantes con 
@@ -90,4 +98,6 @@
             </div>
         </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/dropdown.js"></script>
     </html>
