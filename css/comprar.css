@@ -1,3 +1,4 @@
+
 .bigBox {
     padding: 2rem;
 }
@@ -15,12 +16,13 @@
 }
 @media screen and (max-width: 720px){
     .gridList {
+        width: 90%;
         grid-template-columns: repeat(1, 1fr);
         gap: 0.5rem;
         display: grid;
     }
     .card { 
-        width: 20rem;
+        width: 90%;
         margin-bottom: 0.5rem;
     }
     .card > img {

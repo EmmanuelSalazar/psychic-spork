@@ -183,6 +183,9 @@ footer > .footer > div > img {
     width: 70%;
 
 }
+nav > img {
+    width:5rem;
+}
 @media screen and (max-width: 720px) {
     .container {
         max-width: 720px;

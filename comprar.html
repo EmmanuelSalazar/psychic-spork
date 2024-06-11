@@ -13,7 +13,7 @@
     <header>
         <div class="header">
             <nav>
-                <h1>logo</h1>
+                <img src="img/logo.png" alt="">
                 <ul>
                     <li class="navItem"><a href="index.html">Inicio</a></li>
                     <li class="navItem"><a href="#">Comprar</a></li>
@@ -41,9 +41,9 @@
                            <img src="img/R.jpg" alt="">
                            <div class="infoCard">
                             <h2 class="titleCard">
-                                NVIDIA RTX 4090
+                                NVIDIA RTX 4090ti
                             </h2>
-                            <button class="btn">Comprar</button>
+                            <button class="btn" id="factura">Comprar</button>
                            </div>
                         </div>
                         <div class="card">
@@ -98,5 +98,12 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/dropdown.js"></script>
+    <script>
+        const boton = document.getElementById('factura');
+            boton.addEventListener('click', function(evento) {
+            evento.preventDefault();
+            window.location.href = 'factura.html';
+        });
+    </script>
 </body>
 </html>

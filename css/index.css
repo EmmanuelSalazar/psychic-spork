@@ -56,7 +56,7 @@ header {
       transform: translateY(0);
     }
   }
-.coverIMG > div > div:nth-child(1) > h1 {
+.coverIMG > div > div:nth-child(1) > h1, #moreInfo {
     backdrop-filter: blur(4px) invert(40%);
     border: 1px solid white;
     padding: 1vh;
