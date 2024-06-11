@@ -35,7 +35,7 @@ h2, ul > li > strong {
         max-width: 100%;
         padding: 0.3rem;
         text-align: center;
-        
+        margin-top: 5rem;
     }
     .col > div {
         display: flex;
