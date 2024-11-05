@@ -1,0 +1,32 @@
+[
+    {
+    "Id":"1",      
+    "Nombre": "Vibrador Hitachi",
+    "Imagen": "https://ibb.co/5564WHc",
+    "Precio": 60000,
+    "Descuento":""
+    
+    },   
+    {
+    "Id":"2",    
+    "Nombre": "Tampones Anales",
+    "Imagen": "https://ibb .co/wKCkM02",
+    "Precio": 35000,
+    "Descuento":""
+    },   
+    { 
+    "Id":"3",    
+    "Nombre": "Lubricante Neutro",
+    "Imagen": "https://ibb.co/8bhqvqV",
+    "Precio": 50000,
+    "Descuento":""
+
+    },    
+    {
+    "Id":"4",       
+    "Nombre": "Lubricante Neutro",
+    "Imagen": "https://ibb.co/JF8dWzs",
+    "Precio": 32000,
+    "Descuento":""
+    }
+]

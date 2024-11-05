@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Pacifico&display=swap');
 :root {
-    --bgColor: #292929;
-    --titleColor: #c501e2;
+    --bgColor: #191825;
+    --titleColor: #F72798;
     --powerLineColor: #c501e2;
     --btnHover: #c501e2;
 }
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: nrmal;
 }
 p {
     font-size: 18px;
@@ -32,8 +36,15 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-weight: bold;
+    font-weight: bold ;
 }
+.cursive {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 h1, h2, h3, h4, h5{
     color: var(--titleColor);
 }
@@ -44,8 +55,7 @@ h1, h2, h3, h4, h5{
 ul {
     display: flex;
     flex-wrap: wrap;
-/*     grid-template-columns: repeat(4, 1fr);
- */    margin-top: 0.5rem;
+   margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         gap: 0.4rem;
 
@@ -59,13 +69,21 @@ ul li{
     border: 1px solid var(--powerLineColor);
     border-radius: 2px;
 }
+.header > nav > ul > li > a {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
 a{
-    color: #6CB3B8;
+    color: var(--titleColor );
     text-decoration: none;
 }
 
 .header > nav > ul > li:hover{
-    background-color: #5B5B5B;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
+
+
 }
 .titulo{
     text-align: center;
@@ -77,10 +95,12 @@ a{
    align-items: center;
    margin-top: 5rem;
 }
+
 .magen{
     padding: 20px;
-    color: white;
+    color:  white;
     border: 2px solid var(--powerLineColor);
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -245,7 +265,7 @@ footer > .footer > div > img {
 
 }
 .coverIMG > div > div:nth-child(2) > a > img {
-    width: 230px;
+    width: 14.3rem;
     backdrop-filter:  blur(4px) invert(20%);
     border: 2px solid white;
     padding: 2vh;
@@ -257,7 +277,7 @@ footer > .footer > div > img {
 
 .coverIMG > div > div:nth-child(2) > a > img:hover {
     background-color: var(--btnHover);
-    width: 250px;
+    width: 15.6rem;
 }
 .img {
     border-radius: 10px;
@@ -271,6 +291,7 @@ footer > .footer > div > img {
         flex-direction: column;
        
     }
+    
     .magen {
         max-width: 720px;
     }
