@@ -1,8 +1,8 @@
 :root {
-    --bgColor: #292929;
-    --titleColor: #c501e2;
+    --bgColor: #191825;
+    --titleColor: #865DFF;
     --powerLineColor: #c501e2;
-    --btnHover: #c501e2;
+    --btnHover: #;
 }
 *{
     margin: 0;
@@ -25,6 +25,7 @@ body {
     background-color: var(--bgColor);
 }
 .imgHeader {
+    filter: brightness(80%) contrast(180%);
     width: 100%;
     z-index: 1;  
 }
@@ -60,12 +61,13 @@ ul li{
     border-radius: 2px;
 }
 a{
-    color: #6CB3B8;
+    color: var(--titleColor);
     text-decoration: none;
 }
 
 .header > nav > ul > li:hover{
-    background-color: #5B5B5B;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
+    
 }
 .titulo{
     text-align: center;
@@ -80,6 +82,7 @@ a{
 .magen{
     padding: 20px;
     color: white;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
     border: 2px solid var(--powerLineColor);
     border-radius: 10px;
     display: flex;
@@ -211,14 +214,14 @@ footer > .footer > div > img {
     }
   }
 .coverIMG > div > div:nth-child(1) > h1 {
-    backdrop-filter: blur(4px) invert(40%);
-    border: 1px solid white;
+    backdrop-filter: blur(4px) contrast(70%);
+    border: 1px solid var(--powerLineColor);
     padding: 1vh;
     border-radius: 10px;
 }
 .coverIMG > div > div:nth-child(1) > h2 {
     backdrop-filter:  url(filters.svg#filter) blur(4px) invert(40%);
-    border: 1px solid white;
+    border: 1px solid var(--powerLineColor);
     padding: 1vh;
     border-radius: 10px;
     color: var(--titleColor);
