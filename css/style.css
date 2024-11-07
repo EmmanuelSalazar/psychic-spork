@@ -82,8 +82,6 @@ a{
 
 .header > nav > ul > li:hover{
     box-shadow: var(--powerLineColor) 0px 5px 15px;
-
-
 }
 .titulo{
     text-align: center;
@@ -169,6 +167,7 @@ footer > .footer > div > img {
 .card {
     width: 30rem;
     border: 2px solid var(--powerLineColor);
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
     border-radius: 10px;
     background-color: #313134;
     padding: 1rem;
@@ -176,7 +175,7 @@ footer > .footer > div > img {
     margin-bottom: 2rem;
 }
 .titleCard {
-    color: #7ecfd4;
+    color: var(--titleColor);
 }
 .btn {
     margin-top: 1rem;
@@ -189,6 +188,8 @@ footer > .footer > div > img {
 }
 .btn:hover {
     background-color: var(--btnHover);
+    cursor: pointer;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
 }
 
 .coverIMG {

@@ -1,13 +1,21 @@
-* {
-    font-family: verdana;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Pacifico&display=swap');
+:root {
+    --bgColor: #191825;
+    --titleColor: #F72798;
+    --powerLineColor: #c501e2;
+    --btnHover: #c501e2;
+    --subtitleColor: #FFA1F5;
 }
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .box {
-    border: 1px solid #7ecfd4;
+    border: 1px solid var(--powerLineColor);
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
@@ -28,14 +36,15 @@ form > input[type=password],  input[type=text],  input[type=email] {
 .btn {
     border: none;
     padding: 1rem;
-    background-color: #6CB3B8;
+    border: 1px solid var(--powerLineColor);
     border-radius: 10px;
     color: white;
     font-size: 16px;
     cursor: pointer;
     }
 .btn:hover {
-    background-color: #61A0A5;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
+    
 }
 h1 {
    margin: 1rem;
@@ -46,5 +55,5 @@ span {
 }
 span > a {
     text-decoration: none;
-    color: #6CB3B8;
+    color: var(--subtitleColor);
 }
