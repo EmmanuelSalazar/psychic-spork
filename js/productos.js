@@ -16,9 +16,9 @@ $(document).ready(function () {
           "<p>$" +
           producto.Precio +
           "</p>" +
-          '<button class="btn" onclick="' +
+          '<button class="btn" onclick="redirect(' +
           producto.Id +
-          '">Comprar</button></div></div>';
+          ')">Comprar</button></div></div>';
         card.append(productoHTML);
       });
     }
