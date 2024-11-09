@@ -1,3 +1,9 @@
+:root {
+    --bgColor: #191825;
+    --titleColor: #F72798;
+    --powerLineColor: #c501e2;
+    --btnHover: #c501e2;
+}
 header {
     position: sticky;
     top: 0;
@@ -67,7 +73,7 @@ header {
     border: 1px solid white;
     padding: 1vh;
     border-radius: 10px;
-    color: #6CB3B8;
+    color: var(--titleColor);
     width: fit-content;
 
 }
@@ -102,7 +108,7 @@ header {
 }
 
 .coverIMG > div > div:nth-child(2) > a > img:hover {
-    background-color: #6CB3B8;
+    background-color: var(--btnHover);
     width: 250px;
 }
 
@@ -157,13 +163,18 @@ header {
 
 @media screen and (max-width: 1500px){
     .coverIMG > div > div:nth-child(2) > a > img {
-        width: 130px;
+        width: 160px;
     }   
     .coverIMG > div > div:nth-child(2) > a > img:hover {
-        width: 150px;
+        width: 180px;
     }   
     .coverIMG > div > div:nth-child(2) { 
         margin: 2rem;
+        margin-top: 6rem;
+        justify-items: center;
+    }
+    .arrows {
+        margin-top: 4rem;
     }
 }
 nav > h1 {

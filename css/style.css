@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Pacifico&display=swap');
+:root {
+    --bgColor: #191825;
+    --titleColor: #F72798;
+    --powerLineColor: #c501e2;
+    --btnHover: #c501e2;
+    --subtitleColor: #FFB5DA;
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
 }
 p {
     font-size: 18px;
@@ -16,7 +27,7 @@ p {
     margin-bottom: 5rem;
 }
 body {
-    background-color: #454546;
+    background-color: var(--bgColor);
 }
 .imgHeader {
     width: 100%;
@@ -28,8 +39,14 @@ nav{
     justify-content: space-around;
     font-weight: bold;
 }
+.cursive {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
 h1, h2, h3, h4, h5{
-    color: #6CB3B8;
+    color: var(--titleColor);
 }
 .header > nav > h1 {
     font-size: 30px;
@@ -48,20 +65,26 @@ ul li, .navItemDropDown{
     list-style: none;
 }
 .header > nav > ul > li {
-    border: 1px solid #6CB3B8;
+    border: 1px solid var(--powerLineColor);
     border-radius: 2px;
 }
+.header > nav > ul > li > a {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
 a{
-    color: #6CB3B8;
+    color: var(--titleColor );
     text-decoration: none;
 }
 
 .header > nav > ul > li:hover, .navItemDropDown:hover{
-    background-color: #5B5B5B;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
 }
 .titulo{
     text-align: center;
-    color: #6CB3B8;
+    color: var(--titleColor);
     margin-top: 50px;
 }
 .container{
@@ -71,8 +94,9 @@ a{
 }
 .magen{
     padding: 20px;
-    color: white;
-    border: 2px solid #7ecfd4;
+    color:  white;
+    border: 2px solid var(--powerLineColor);
+    box-shadow: var(--powerLineColor) 0px 5px 15px;    
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -88,7 +112,7 @@ header {
 .header {
     position: sticky;
     top: 0;
-    background-color: #454546;
+    background-color: var(--bgColor);
 }
 
 .itemLista{
@@ -96,7 +120,7 @@ header {
     color: white;
 }
 .titleLista {
-    color: #6CB3B8;
+    color: var(--titleColor);
     margin: 1rem;
 }
 .contLista {
@@ -116,7 +140,7 @@ footer > .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #6CB3B8;
+    background-color: var(--powerLineColor);
     padding-left: 10rem;
     padding-right: 10rem;
     padding-bottom: 3rem;
@@ -140,7 +164,8 @@ footer > .footer > div > img {
 
 .card {
     width: 30rem;
-    border: 2px solid #6CB3B8;
+    border: 2px solid var(--powerLineColor);
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
     border-radius: 10px;
     background-color: #313134;
     padding: 1rem;
@@ -148,20 +173,22 @@ footer > .footer > div > img {
     margin-bottom: 2rem;
 }
 .titleCard {
-    color: #7ecfd4;
+    color: var(--titleColor);
 }
 .btn {
     margin-top: 1rem;
     border: none;
     padding: 1rem;
-    background-color: #6CB3B8;
+    background-color: var(--titleColor);
     border-radius: 10px;
     color: white;
     font-size: 16px;
     cursor: pointer;
 }
 .btn:hover {
-    background-color: #61A0A5;
+    background-color: var(--btnHover);
+    cursor: pointer;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
 }
 .img {
     border-radius: 10px;
@@ -172,14 +199,14 @@ footer > .footer > div > img {
 .dropDownMenu {
     display: none;
     z-index: 100;
-    background-color: #454546;
+    background-color: var(--bgColor);
     grid-template-columns: repeat(2, 1fr);
     gap: 0.2rem;
     justify-items: center;
     padding: 0.8rem;
 }
 .navItemDropDown {
-    border: 1px solid #61A0A5;
+    border: 1px solid var(--powerLineColor);
     width: 70%;
 
 }
