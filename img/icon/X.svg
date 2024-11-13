@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 448 448"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="77df2f77943802e2c6b0f5c53c2d9ddb.svg"
+   width="448"
+   height="448"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0" />
+  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+  <path
+     d="M 64,0 C 28.7,0 0,28.7 0,64 v 320 c 0,35.3 28.7,64 64,64 h 320 c 35.3,0 64,-28.7 64,-64 V 64 C 448,28.7 419.3,0 384,0 Z M 361.1,84 257.3,202.6 379.4,364 H 283.8 L 209,266.1 123.3,364 H 75.8 L 186.8,237.1 69.7,84 h 98 L 235.4,173.5 313.6,84 Z M 323.3,335.6 153.4,110.9 h -28.3 l 171.8,224.7 h 26.3 z"
+     id="path2" />
+</svg>
