@@ -1,3 +1,11 @@
+:root {
+    --bgColor: #191825;
+    --titleColor: #F72798;
+    --powerLineColor: #c501e2;
+    --btnHover: #c501e2;
+    --subtitleColor: #FFB5DA;
+    --inputColor: #6420AA;
+}
 .contact > div {
     display: flex;
     padding: 0.8rem;
@@ -11,9 +19,17 @@
     align-items: center;
     
 }
+input:focus, textarea:focus {
+    cursor: pointer;
+    box-shadow: var(--powerLineColor) 0px 5px 15px;
+}
+input::placeholder, textarea::placeholder {
+    color: var(--subtitleColor);
+}
 form > input[type=password],  input[type=text],  input[type=email], textarea {
     border: none;
-    background-color: #7ecfd4;
+    background-color: var(--inputColor);
+    color: white;
     padding: 0.7rem;
     border-radius: 10px;
 }
@@ -37,5 +53,5 @@ form > input[type=password],  input[type=text],  input[type=email], textarea {
 @media screen and (max-width: 720px) {
     .col:nth-child(2) {
         text-align: center;
-    }    
+    }   
 }
