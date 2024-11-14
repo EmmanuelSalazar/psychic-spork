@@ -6,11 +6,11 @@
 }
 .gridList {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem 1.5rem;
 }
 .card > img {
-    width: 30rem;
+    width: 20rem;
     border-radius: 10px;
 }
 @media screen and (max-width: 720px){
@@ -20,7 +20,7 @@
         display: grid;
     }
     .card { 
-        width: 20rem;
+        width: 90%;
         margin-bottom: 0.5rem;
     }
     .card > img {

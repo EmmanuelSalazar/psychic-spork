@@ -1,0 +1,51 @@
+.col {
+    gap: 0rem;
+}
+.col > div > span > strong {
+    color: #6CB3B8;
+}
+.col {
+        gap: 0rem;
+    }.col > div {
+    margin-bottom: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+form > div > input[type=text] {
+    background-color: #7ecfd4;
+    border-radius: 10px;
+    padding: 0.6rem;
+    border: none;
+}
+form > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+@media screen and (max-width: 720px) {
+    
+    .card {
+        width: 90%;
+    }
+    .img {
+        max-width: 80%;
+    }
+    span {
+        display: block;
+    }
+    .col > div {
+        margin-bottom: 1rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    form > div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+  
+}

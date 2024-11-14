@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tarjetas graficas</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>HotKisses</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    
 </head>
 <body>
     <div class="coverIMG">
-        <div>
+        <div class="coverIMG2">
             <div>
-                <h1>EL MUNDO DE LAS TARJETAS GRAFICAS</h1>
-            <h2>Tecnología de vanguardia para experiencias inmersivas</h2>
+                <h1 class="cursive">' HOTKISSES '</h1>
+            <h2 class="cursive">The Store Of Your Desires</h2>
             </div>
-            <div>
-                <a href="brand/nvidia.html"><img src="img/nvidiaBrand.png" alt=""></a>
-                <a href="brand/radeon.html"><img src="img/radeonBrand.png" alt=""></a>
-                <a href="brand/intel.html"><img src="img/intelBrand.png" alt=""></a>
+            <div class="brand">
+                <a href="#"><img src="img/Img3.png" alt=""></a>
+                <a href="#"><img src="img/Img2.png" alt=""></a>
+                <a href="#"><img src="img/Img1.png" alt=""></a>
             </div>
-            <div>
+            <div class="arrows">
                 <img src="img/icon/down-arrow.svg" alt="">
                 <img src="img/icon/down-arrow.svg" alt="">
             </div>
@@ -30,19 +31,26 @@
     <header>
         <div class="header">
             <nav>
-                <h1>logo</h1>
+                <img src="img/logo.png" alt="">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="comprar.html">Comprar</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="login.html">Iniciar sesión </a></li>
+                    <li class="navItem"><a href="index.html">Inicio</a></li>
+                    <li class="navItem"><a href="comprar.html">Comprar</a></li>
+                    <li class="navItem"><a href="contacto.html">Contacto</a></li>
+                    <li class="navItem"><a href="login.html">Iniciar sesión </a></li>
+                    <li class="dropdown" id="dropdown"><a href="#" ><i class="material-icons">menu</i></a></li>
                 </ul>
             </nav>
         </div>
-    </header>  
+                <div class="dropDownMenu" id="dropDownMenu">
+                    <li class="navItemDropDown"><a href="index.html">Inicio</a></li>
+                    <li class="navItemDropDown"><a href="comprar.html">Comprar</a></li>
+                    <li class="navItemDropDown"><a href="contacto.html">Contacto</a></li>
+                    <li class="navItemDropDown"><a href="login.html">Iniciar sesión </a></li>
+                </div>
+        </header>  
 
-        <h2 class="titulo">
-            El mundo de las tarjetas graficas 
+        <h2 class="titulo cursive">
+            El mundo en el que compartimos tus pasiones
         </h2>
         </div>
         <div class="container">
@@ -94,7 +102,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                            <img src="img/tarjetas.png" alt="" class="img">
+                            <img src="img/sexshop1.jfif" alt="" class="img">
                     </div>
                     <div class="col">
                         <h3>La minería de criptomonedas y su cercanía al mundo de las tarjetas graficas</h3>
@@ -124,7 +132,7 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <img src="img/mineria.jpg" alt="" class="img">
+                                    <img src="img/sexshop2.webp" alt="" class="img">
                                 </div>
                                 <div class="col">
                                     <h3>Un auge con consecuencias</h3>
@@ -153,19 +161,21 @@
             <div class="footer">
                 <div>
                     <img src="img/logo.png" alt="">
-                    <span>Creado por <strong>Emmanuel Manrique</strong> y <strong>Sebastian Quirama</strong></span>
                 </div>
                 <div>
                     <span>Siguenos en nuestras redes sociales</span>
                     <div class="socialMediaContent">
-                        <img src="img/twitter.png" alt="">
-                        <img src="img/youtube.png" alt="">
-                        <img src="img/instagram.png" alt="">
-                        <img src="img/behance.png" alt="">
+                        <img src="img/socialMediaContent/youtube.svg" alt="">
+                        <img src="img/socialMediaContent/gorjeo.svg" alt="">
+                        <img src="img/socialMediaContent/logotipo-de-instagram.svg" alt="">
+                        <img src="img/socialMediaContent/facebook.svg" alt="">
                     </div>
                 </div>
             </div>
         </footer>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/dropdown.js"></script>
+        <script src="js/index.js"></script>
 </body>
 </html>

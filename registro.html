@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
@@ -11,15 +13,23 @@
     <header>
         <div class="header">
             <nav>
-                <h1>logo</h1>
+                <img src="img/logo.png" alt="">
                 <ul>
-                    <li><a href="index.html">Inicio  </a></li>
-                    <li><a href="comprar.html">Comprar</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="login.html">Iniciar sesión </a></li>
+                    <li class="navItem"><a href="index.html">Inicio</a></li>
+                    <li class="navItem"><a href="comprar.html">Comprar</a></li>
+                    <li class="navItem"><a href="contacto.html">Contacto</a></li>
+                    <li class="navItem"><a href="login.html">Iniciar sesión </a></li>
+                    <li class="dropdown" id="dropdown"><a href="#" ><i class="material-icons">menu</i></a></li>
                 </ul>
             </nav>
         </div>
+                <div class="dropDownMenu" id="dropDownMenu">
+                    <li class="navItemDropDown"><a href="index.html">Inicio</a></li>
+                    <li class="navItemDropDown"><a href="comprar.html">Comprar</a></li>
+                    <li class="navItemDropDown"><a href="contacto.html">Contacto</a></li>
+                    <li class="navItemDropDown"><a href="login.html">Iniciar sesión </a></li>
+   
+                </div>
         </header> 
     <div class="container">
         <div class="box">
@@ -53,4 +63,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/dropdown.js"></script>
 </body>
+</html>
