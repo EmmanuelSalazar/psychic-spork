@@ -39,6 +39,15 @@ nav{
     justify-content: space-around;
     font-weight: bold;
 }
+.alert {
+    color: #FF2929;
+}
+.noAlert {
+    color: #06D001;
+}
+.pendingAlert {
+    color: #F4CE14;
+}
 .cursive {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -47,6 +56,9 @@ nav{
 }
 h1, h2, h3, h4, h5{
     color: var(--titleColor);
+}
+hr {
+    background: var(--btnHover);
 }
 .header > nav > h1 {
     font-size: 30px;
@@ -116,16 +128,21 @@ header {
 }
 
 .itemLista{
-    padding: 1rem;
-    color: white;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    display: flex;
+    gap: 1rem;    
 }
+
 .titleLista {
     color: var(--titleColor);
     margin: 1rem;
 }
+span {
+    color: var(--subtitleColor);
+}
 .contLista {
     overflow-y: scroll;
-    height: 24rem;
 }
 .col {
     display: flex;
