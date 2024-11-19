@@ -17,12 +17,14 @@ $(document).ready(function () {
         var descuentoArticulo = parseInt(objetoJson.Descuento);
         var precioArticulo = parseInt(objetoJson.Precio);
         var precioDescuento = precioArticulo * descuentoArticulo / 100;
-        var precioFinalArticulo = '- '+ precioArticulo - precioDescuento +'%';
+        var precioFinalArticulo = precioArticulo - precioDescuento;
         if (isNaN(precioFinalArticulo)) {
             var precioFinalArticulo = precioArticulo;
             var descuentoArticulo = 'No Aplica';
+        } else {
+            var descuentoArticulo = '-'+descuentoArticulo+'%';
         }
-        
+       
         $('#nombreArticulo').append(objetoJson.Nombre);
         $('#portadaArticulo').html('<img src="'+objetoJson.Imagen+'" alt="" class="img">');
         $('#referenciaArticulo').html('<span ><strong>Referencia: </strong>'+objetoJson.id+'</span>');
