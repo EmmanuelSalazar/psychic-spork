@@ -33,6 +33,9 @@ body {
     width: 100%;
     z-index: 1;  
 }
+b {
+    color: var(--subtitleColor);
+}
 nav{
     display: flex;
     align-items: center;
@@ -131,6 +134,7 @@ header {
     padding: 0.6rem;
     margin: 0.6rem;
     display: flex;
+    align-items: center;
     gap: 1rem;    
 }
 

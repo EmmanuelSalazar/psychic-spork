@@ -4,7 +4,6 @@ $(document).ready(function () {
     function mostrarProductos(productos) {
       var card = $("#productList");
       $.each(productos, function (i, producto) {
-        console.log(producto.Imagen);
         var productoHTML =
           '<div class="card">' +
           '<img src="' +
@@ -17,7 +16,7 @@ $(document).ready(function () {
           producto.Precio +
           "</p>" +
           '<button class="btn" onclick="redirect(' +
-          producto.Id +
+          producto.id +
           ')">Comprar</button></div></div>';
         card.append(productoHTML);
       });

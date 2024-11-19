@@ -91,6 +91,7 @@ header {
 .coverIMG > div > div:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     margin: 10rem;
     width: 60rem;
     gap: 2rem;
@@ -139,7 +140,8 @@ header {
     }
     .container {
         padding: 1.5rem;
-        }
+        margin-top: 0;
+    }
     .container > .row:nth-child(2)> .col > .img{
         max-width:330px;
     }
@@ -155,8 +157,10 @@ header {
     }
     .container > .row:nth-child(2) > .col, .container > .row:nth-child(3) > .col > .magen > .row > .col{
         width: 100%;
-    
-}
+    }
+    .itemLista {
+        flex-direction: column;
+    }
 }
 
 /* ADDITIONAL CSS */

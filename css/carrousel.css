@@ -11,6 +11,9 @@
 .mySlides {
   display: none;
 }
+.mySlides > img {
+  border-radius: 10px;
+}
 
 /* Next & previous buttons */
 .prev, .next {
