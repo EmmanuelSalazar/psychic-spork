@@ -179,6 +179,9 @@ footer > .footer > div > h4 {
 footer > .footer > div > img {
     width: 18rem;
 }
+.span{
+    content: center;
+}
 .socialMediaContent > img {
     width: 5rem;
 }
