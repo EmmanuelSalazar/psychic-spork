@@ -3,15 +3,15 @@
     "id":"1",      
     "Nombre": "Vibrador Hitachi",
     "Imagen": "https://i.ibb.co/64mwRCs/2.webp",
-    "Precio": 60000,
+    "Precio": "60.000",
     "Descuento":""
     
     },
     { 
     "id":"2",     
     "Nombre": "Vibrador App",
-    "Imagen": "https://i.ibb.co/kDDyqk7/2.jpg",
-    "Precio": 400000,
+    "Imagen": "https://i.ibb.co/gmW9FrP/23.jpg",
+    "Precio": "400.000",
     "Descuento":"10%"
     
 },
@@ -19,7 +19,7 @@
     "id":"3",     
     "Nombre": "Vibrador lovensen",
     "Imagen": "https://i.ibb.co/dj6j2zn/24.jpg",
-    "Precio": 700000,
+    "Precio": "700.000",
     "Descuento":"15%"
     
 },
@@ -27,7 +27,7 @@
     "id":"4",     
     "Nombre": "Vibrador Domi2",
     "Imagen": "https://i.ibb.co/BG2ptNR/25.webp",
-    "Precio": 600000,
+    "Precio": "600.000",
     "Descuento":""
 
 },
@@ -35,15 +35,15 @@
     "id":"5",
     "Nombre": "Vibrador Control Remoto",
     "Imagen": "https://i.ibb.co/k39kf05/26.jpg",
-    "Precio": 200000,
+    "Precio": "200.000",
     "Descuento":""
 
     },    
     { 
     "id":"6",  
     "Nombre": "Dildo  Doble Placer",
-    "Imagen": "https://i.ibb.co/SfHPkFT/1.webp",
-    "Precio": 120000,
+    "Imagen": "https://i.ibb.co/0yJgLKt/27.webp",
+    "Precio": "120.000",
     "Descuento":""
     
 },   
@@ -51,7 +51,7 @@
     "id":"7",
     "Nombre": "Dildo  Doble Placer",
     "Imagen": "https://i.ibb.co/m4rJ0vr/28.jpg",
-    "Precio": 150000,
+    "Precio": "150.000",
     "Descuento":"5%"
     
 },    
@@ -59,7 +59,7 @@
     "id":"8",
     "Nombre": "Dildo Clasico",
     "Imagen": "https://i.ibb.co/19S5xZg/29.jpg",
-    "Precio": 130000,
+    "Precio": "130.000",
     "Descuento":""
 
 },    
@@ -68,7 +68,7 @@
     "id":"9",
     "Nombre": "Dildo Clasico Vidrio",
     "Imagen": "https://i.ibb.co/rsmHpj6/30.jpg",
-    "Precio": 150000,
+    "Precio": "150.000",
     "Descuento":""
     
 },    
@@ -76,7 +76,7 @@
     "id":"10",
     "Nombre": "Tampones Anales",
     "Imagen": "https://i.ibb.co/4jMqPm0/1.webp",
-    "Precio": 35000,
+    "Precio": "35.000",
     "Descuento":""
 
 },
@@ -84,7 +84,7 @@
     "id":"11",
     "Nombre": "Estimulantes Para Dama",
     "Imagen": "https://i.ibb.co/4WdbSS6/36.jpg",
-    "Precio": 50000,
+    "Precio": "50.000",
     "Descuento":""
 
     },    
@@ -92,7 +92,7 @@
     "id":"12",
     "Nombre": "Estimulantes Para Caballero",
     "Imagen": "https://i.ibb.co/MZCrdS9/37.webp",
-    "Precio": 40000,
+    "Precio": "40.000",
     "Descuento":""
 
     },    
@@ -100,7 +100,7 @@
     "id":"13", 
     "Nombre": "Estimulantes Para Dama",
     "Imagen": "https://i.ibb.co/27DkRDN/40.jpg",
-    "Precio": 60000,
+    "Precio": "60.000",
     "Descuento":"10%"
 
     },    
@@ -108,7 +108,7 @@
     "id":"14",
     "Nombre": "Estimulantes Para Caballero",
     "Imagen": "https://i.ibb.co/bJZj5Xb/38.jpg",
-    "Precio": 70000,
+    "Precio": "70.000",
     "Descuento":"5%"
 
     },    
@@ -116,7 +116,7 @@
     "id":"15",
     "Nombre": "Estimulantes Para Dama",
     "Imagen": "https://i.ibb.co/gVfB3JF/39.jpg",
-    "Precio": 50000,
+    "Precio": "50.000",
     "Descuento":""
 
     },    
@@ -124,7 +124,7 @@
     "id":"16",
     "Nombre": "Lubricante Neutro",
     "Imagen": "https://i.ibb.co/HCJ6w6Q/3.png",
-    "Precio": 50000,
+    "Precio": "50.000",
     "Descuento":""
 
     },    
@@ -132,7 +132,7 @@
     "id":"17",
     "Nombre": "Lubricante Neutro",
     "Imagen": "https://i.ibb.co/mFdBrHc/4.png",
-    "Precio": 32000,
+    "Precio": "32.000",
     "Descuento":""
 
     },    
@@ -140,7 +140,7 @@
     "id":"18",
     "Nombre": "Lubricante Estimulante",
     "Imagen": "https://i.ibb.co/bHp398g/5.png",
-    "Precio": 25000,
+    "Precio": "25.000",
     "Descuento":""
 
     },    
@@ -148,7 +148,7 @@
     "id":"19",
     "Nombre": "Lubricante Estimulante",
     "Imagen": "https://i.ibb.co/R7123hb/6.jpg",
-    "Precio": 25000,
+    "Precio": "25.000",
     "Descuento":""
 
     },    
@@ -156,7 +156,7 @@
     "id":"20",
     "Nombre": "Lubricante Anal",
     "Imagen": "https://i.ibb.co/cXCFxYf/7.png",
-    "Precio": 38000,
+    "Precio": "38.000",
     "Descuento":""
 
     },
@@ -164,7 +164,7 @@
     "id":"21",
     "Nombre": "Lubricante Anal",
     "Imagen": "https://i.ibb.co/cFP5d6m/8.webp",
-    "Precio": 36000,
+    "Precio": "36.000",
     "Descuento":""
 
     },
@@ -172,7 +172,7 @@
     "id":"22",
     "Nombre": "Lubricante Multiorgarmos",
     "Imagen": "https://i.ibb.co/dLG33Gs/9.jpg",
-    "Precio": 26000,
+    "Precio": "26.000",
     "Descuento":""
 
     },
@@ -180,7 +180,7 @@
     "id":"23",
     "Nombre": "Lubricante Multiorgarmos",
     "Imagen": "https://i.ibb.co/Hp1mW1c/10.webp",
-    "Precio": 28000,
+    "Precio": "28.000",
     "Descuento":""
 
     },
@@ -188,7 +188,7 @@
     "id":"24",
     "Nombre": "Lubricante Sexo Oral",
     "Imagen": "https://i.ibb.co/CQKQ6QX/12.webp",
-    "Precio": 25000,
+    "Precio": "25.000",
     "Descuento":""
 
     },
@@ -196,7 +196,7 @@
     "id":"25",
     "Nombre": "Lubricante Sexo Oral",
     "Imagen": "https://i.ibb.co/xj3qkJY/11.png",
-    "Precio": 37000,
+    "Precio": "37.000",
     "Descuento":""
 
     },
@@ -204,7 +204,7 @@
     "id":"26", 
     "Nombre": "Disfraces Eroticos Dama",
     "Imagen": "https://i.ibb.co/n0SMY9q/13.jpg",
-    "Precio": 150000,
+    "Precio": "150.000",
     "Descuento":""
 
     },
@@ -212,7 +212,7 @@
     "id":"27",  
     "Nombre": "Disfraces Eroticos Caballero",
     "Imagen": "https://i.ibb.co/Wz4JM23/14.jpg",
-    "Precio": 100000,
+    "Precio": "100.000",
     "Descuento":""
 
     },
@@ -220,7 +220,7 @@
     "id":"28",  
     "Nombre": "Disfraces Eroticos Dama",
     "Imagen": "https://i.ibb.co/wNySpRx/15.webp",
-    "Precio": 180000,
+    "Precio": "180.000",
     "Descuento":""
 
     },
@@ -228,7 +228,7 @@
     "id":"29",   
     "Nombre": "Disfraces Eroticos Caballero",
     "Imagen": "https://i.ibb.co/1YNP0d0/16.webp",
-    "Precio": 120000,
+    "Precio": "120.000",
     "Descuento":"10%"
 
     },
@@ -236,7 +236,7 @@
     "id":"30",   
     "Nombre": "Disfraces Eroticos Dama",
     "Imagen": "https://i.ibb.co/FwKRd43/17.jpg",
-    "Precio": 180000,
+    "Precio": "180.000",
     "Descuento":"5%"
 
     },
@@ -244,7 +244,7 @@
     "id":"31", 
     "Nombre": "Disfraces Eroticos Caballero",
     "Imagen": "https://i.ibb.co/8dyVGNp/18.jpg",
-    "Precio": 80000,
+    "Precio": "80.000",
     "Descuento":"50%"
 
     },
@@ -252,7 +252,7 @@
     "id":"32",   
     "Nombre": "Disfraces Eroticos Dama",
     "Imagen": "https://i.ibb.co/dPVQQrD/19.png",
-    "Precio": 160000,
+    "Precio": "160.000",
     "Descuento":""
 
     },
@@ -260,7 +260,7 @@
     "id":"33", 
     "Nombre": "Disfraces Eroticos Caballero",
     "Imagen": "https://i.ibb.co/prkbJcr/20.jpg",
-    "Precio": 130000,
+    "Precio": "130.000",
     "Descuento":"5%"
 
     },
@@ -268,7 +268,7 @@
     "id":"34",  
     "Nombre": "Disfraces Eroticos Dama",
     "Imagen": "https://i.ibb.co/brKdGBy/21.jpg",
-    "Precio": 180000,
+    "Precio": "180.000",
     "Descuento":""
 
     },
@@ -276,7 +276,7 @@
     "id":"35", 
     "Nombre": "Disfraces Eroticos Caballero",
     "Imagen": "https://i.ibb.co/ZV64WCZ/22.webp",
-    "Precio": 140000,
+    "Precio": "140.000",
     "Descuento":"10%"
 
     },
@@ -284,7 +284,7 @@
     "id":"36",
     "Nombre": "Amarres",
     "Imagen": "https://i.ibb.co/WgnFnLx/31.webp",
-    "Precio": 50000,
+    "Precio": "50.000",
     "Descuento":""
 
     },
@@ -292,7 +292,7 @@
     "id":"37",
     "Nombre": "Esposas",
     "Imagen": "https://i.ibb.co/gW9JNg3/32.webp",
-    "Precio": 70000,
+    "Precio": "70.000",
     "Descuento":""
 
     },
@@ -300,7 +300,7 @@
     "id":"38",
     "Nombre": "Amarres",
     "Imagen": "https://i.ibb.co/vJKbfJ5/33.jpg",
-    "Precio": 100000,
+    "Precio": "100.000",
     "Descuento":""
 
     },
@@ -308,7 +308,7 @@
     "id":"39",
     "Nombre": "Esposas",
     "Imagen": "https://i.ibb.co/4fxw39M/35.jpg",
-    "Precio": 70000,
+    "Precio": "70.000",
     "Descuento":""
 
     },
@@ -316,7 +316,7 @@
     "id":"40",
     "Nombre": "Amarres",
     "Imagen": "https://i.ibb.co/MSHYfFw/34.png",
-    "Precio": 90000,
+    "Precio": "90.000",
     "Descuento":""
 
     }
