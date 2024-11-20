@@ -8,6 +8,10 @@ header {
     position: sticky;
     top: 0;
 }
+footer {
+    display: flex;
+    justify-content: space-around;
+}
 .container > .row:nth-child(2) > .col {
     width: 36.25rem;
 }
