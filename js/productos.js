@@ -15,6 +15,9 @@ $(document).ready(function () {
           "<p>$" +
           producto.Precio +
           "</p>" +
+          "<p>Descuento: -" +
+          producto.Descuento +
+          "</p>" +
           '<button class="btn" onclick="redirect(' +
           producto.id +
           ')">Comprar</button></div></div>';
