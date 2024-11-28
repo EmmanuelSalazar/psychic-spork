@@ -29,6 +29,6 @@ $(document).ready(function () {
         $('#portadaArticulo').html('<img src="'+objetoJson.Imagen+'" alt="" class="img">');
         $('#referenciaArticulo').html('<span ><strong>Referencia: </strong>'+objetoJson.id+'</span>');
         $('#precioArticulo').html('<span><strong>Precio + Iva: </strong>'+precioArticulo+'$</span><span><strong>Descuento: </strong>'+descuentoArticulo+'</span>');
-        $('#precioFinalProducto').html('<span>Precio final: <strong>'+precioFinalArticulo+'$</strong></span><button class="btn">Continuar con el proceso de compra</button>');
+        $('#precioFinalProducto').html('<span>Precio final: <strong>'+precioFinalArticulo+'$</strong></span><button class="btn">Continuar con Mercado Pago</button>');
     });
 })
